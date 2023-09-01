@@ -2090,7 +2090,7 @@ input, select, textarea {
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
 				color: #fff;
-				content: 'View';
+				content: 'Learn More';
 				display: inline-block;
 				font-size: 0.8em;
 				font-weight: 400;
@@ -2160,6 +2160,16 @@ input, select, textarea {
 
 			.image.avatar img {
 				border-radius: 100%;
+				width: 100%;
+			}
+
+		.image.portfoliopreview {
+			display: block;
+			margin: 0 0 0.5em 0;
+			width: 100%;
+		}
+
+			.image.portfoliopreview img {
 				width: 100%;
 			}
 
