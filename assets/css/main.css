@@ -290,6 +290,23 @@ input, select, textarea {
 
 		}
 
+/* Scrolling Wrapper to create horizontal scrolling container */
+/* https://dev.to/jessewei/css-horizontal-scroll-a-step-by-step-guide-418d */
+	.scrolling-wrapper {
+		overflow-x: scroll;
+		overflow-y: hidden;
+		white-space: nowrap;
+
+		/* to hide scrollbar */
+		&::-webkit-scrollbar {
+			display: none;
+		  }
+	
+		.card {
+		display: inline-block;
+		}
+	}
+
 /* Row */
 
 	.row {
