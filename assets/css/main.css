@@ -2123,8 +2123,14 @@ input, select, textarea {
 			}
 
 		.image img {
-			border-radius: 0.35em;
+			border-radius: 15px;
 			display: block;
+		}
+
+		.about-image {
+			display: block;
+			width: 250px;
+			height: auto;
 		}
 
 		.image.left {
